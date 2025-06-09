@@ -1,0 +1,29 @@
+{
+  "name": "backend-api",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bun ./src/server.ts",
+    "start": "bun ./src/server.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/cors": "^2.8.18",
+    "@types/express": "^5.0.2",
+    "@types/morgan": "^1.9.9",
+    "@types/node": "^22.15.29"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@clerk/express": "^1.5.2",
+    "@solana/web3.js": "^1.98.2",
+    "cors": "^2.8.5",
+    "database": "*",
+    "express": "^5.1.0",
+    "morgan": "^1.10.0",
+    "svix": "^1.66.0"
+  }
+}

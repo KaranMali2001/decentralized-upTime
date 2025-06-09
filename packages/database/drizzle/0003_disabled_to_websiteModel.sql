@@ -1,0 +1,1 @@
+ALTER TABLE "websites" ADD COLUMN "disabled" boolean DEFAULT false;

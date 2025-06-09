@@ -1,0 +1,1 @@
+ALTER TABLE "websites" ALTER COLUMN "description" DROP NOT NULL;
